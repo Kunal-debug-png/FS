@@ -3,13 +3,10 @@ package com.kunal_debug_png.FullStack.controller;
 import com.kunal_debug_png.FullStack.model.User;
 import com.kunal_debug_png.FullStack.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin
 @RestController
 public class UserController {
     @Autowired
